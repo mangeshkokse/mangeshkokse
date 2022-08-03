@@ -12,7 +12,7 @@ pipeline {
                 sh 'date'
             }
         }
-        stage('Deploy') {
+        stage('test') {
             steps {
                 sh 'date'
             }
