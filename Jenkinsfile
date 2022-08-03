@@ -7,6 +7,11 @@ pipeline {
                 echo 'Build stage'
             }
         }
+        stage('QA') {
+            steps {
+                sh 'date'
+            }
+        }
         stage('Deploy') {
             steps {
                 sh 'date'
