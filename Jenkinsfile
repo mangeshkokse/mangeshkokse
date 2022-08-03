@@ -12,10 +12,5 @@ pipeline {
                 sh 'date'
             }
         }
-        stage('test') {
-            steps {
-                sh 'date'
-            }
-        }
     }
 }
